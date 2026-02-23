@@ -42,7 +42,6 @@ Beyond the core mechanics, the following modules were implemented to increase te
 To run the game locally, ensure you have Java 17 or higher installed.
 
     1. Clone the repository:
-    ```bash
         git clone https://github.com/abel-softengineer/Safari-Tycoon.git
 
     2. Enter the project directory
