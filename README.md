@@ -9,8 +9,6 @@ Players take on the role of a park director managing an African safari. The goal
 
 <img width="1913" height="1010" alt="image" src="https://github.com/user-attachments/assets/a7825bd1-01d0-40d6-b00f-5c52f93a5895" />
 
-		
-Please replace the placeholders with your actual screenshot paths.		
 🚀 Advanced Features
 
 Beyond the core mechanics, the following modules were implemented to increase technical complexity:
@@ -43,13 +41,40 @@ Beyond the core mechanics, the following modules were implemented to increase te
 
 To run the game locally, ensure you have Java 17 or higher installed.
 
-    Clone the repository:
-    Bash
+    1. Clone the repository:
+    ```bash
+        git clone https://github.com/abel-softengineer/Safari-Tycoon.git
 
-    git clone https://github.com/abel-softengineer/Szafari-LibGDX.git
+    2. Enter the project directory
+        cd Safari-Tycoon
 
-    Launch via Gradle:
-    Bash
+    3. Launch the game
+        The project uses the Gradle Wrapper, so you don't need to have Gradle installed globally
 
-    ./gradlew lwjgl3:run
+    On Linux or macOS:
+        ./gradlew lwjgl3:run
+
+    On Windows (CMD or PowerShell):
+        gradlew lwjgl3:run
+
+📂 Project Struct
+
+To help you navigate the codebase, here are the key locations:
+
+    Core Game Logic: lwjgl3/src/main/java/io/github/safari/lwjgl3
+
+        This is where all the game mechanics, entities (animals, rangers, poachers), and UI logic reside.
+
+    Assets: assets/
+
+        Contains the textures, sounds, and map files used by the game.
+
+    Automated Tests: lwjgl3/src/test/java/io.github.safari.lwjgl3
+
+        Includes the Unit Tests integrated into the CI/CD pipeline, covering ecosystem simulations and entity behavior.
+
+    Launcher: lwjgl3/src/main/java/io/github/safari/lwjgl3/Lwjgl3Launcher.java
+
+        Contains the desktop-specific startup logic.
+
 
