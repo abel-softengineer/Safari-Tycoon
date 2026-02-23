@@ -32,6 +32,8 @@ Beyond the core mechanics, the following modules were implemented to increase te
     CI/CD: Automated Unit testing integrated into a GitLab CI pipeline.
 
     Management: Agile workflow using Issue boards, Merge Requests, and a structured branching strategy.
+    
+    👥 Collaboration: Developed in a **team of 3** using Agile methodologies, Issue boards, and structured Merge Requests.
 
 <img width="1913" height="1010" alt="image" src="https://github.com/user-attachments/assets/8af9e496-3b37-4b97-9ec0-5a7d75629639" />
 
