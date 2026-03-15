@@ -2,10 +2,16 @@
 <img width="1913" height="960" alt="image" src="https://github.com/user-attachments/assets/ab34298c-0185-435e-9b56-4ddc750452cc" />
 
 
-Safari Tycoon is a real-time tycoon game built with Java and the LibGDX framework. The project focuses on complex game engine logic, automated quality assurance, and agile development methodologies.
+Safari Tycoon is a real-time tycoon game built with Java and the LibGDX framework. The project focuses on complex game engine logic, automated quality assurance, and agile development methodologies. This game was developed in a group of 3.
+
 🎮 Overview
 
-Players take on the role of a park director managing an African safari. The goal is to build a sustainable ecosystem by planting flora, introducing wildlife, and managing infrastructure (roads, jeeps) to satisfy visiting tourists.
+The player takes the role of a park director managing an African safari park. The goal is to create a sustainable ecosystem by planting vegetation, introducing wildlife, and building infrastructure such as roads and jeeps to attract tourists.
+
+Animals move in groups and must regularly eat and drink while remembering important locations. The park contains both herbivores and predators. Poachers may appear and hunt animals, but players can hire rangers to protect them.
+
+The player must keep the animals alive and attract enough tourists to win the game, while being able to adjust the game speed.
+
 
 <img width="1913" height="1010" alt="image" src="https://github.com/user-attachments/assets/a7825bd1-01d0-40d6-b00f-5c52f93a5895" />
 
